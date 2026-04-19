@@ -1,0 +1,205 @@
+{
+  "id": "62672566-b78e-4cc5-becd-7c582f200c92",
+  "assessment_id": "68ce270a-fd5e-446b-927d-c88844f3bfa5",
+  "title": "Compliance Risk Assessment: AI-Powered Resume Screening and Candidate Ranking System",
+  "generated_at": "2026-04-09T00:15:16.241470",
+  "use_case_summary": "**AI System:** AI-Powered Resume Screening and Candidate Ranking System\n**Description:** This AI system automatically analyses job applications to assist HR teams in recruitment. It processes candidate resumes using natural language processing (NLP) to extract key information such as education, skills, experience, and certifications. The system compares this data against job requirements and ranks candidates based on relevance and suitability.\n\nThe AI also identifies potential matches, flags missing qualifications, and may provide shortlisting recommendations. It can learn from past hiring decisions to improve future ranking accuracy. The system is used as a decision-support tool and does not make final hiring decisions without human review.\n**Domain:** Employment\n**Personal Data:** Yes\n**Sensitive Data:** Yes\n**Automated Decisions:** Yes\n**Impacts Rights:** Yes",
+  "classification": "High Risk",
+  "compliance_concerns": [
+    "Human Oversight Concern",
+    "Privacy Concern",
+    "Fairness / Bias Concern"
+  ],
+  "explanation": "The AI-Powered Resume Screening and Candidate Ranking System is classified as high risk due to its intended use in recruitment and selection processes, which directly affects work-related relationships, as outlined in Article 1 and Article 6 of the EU AI Act. The system processes personal and sensitive data, raising significant privacy and fairness concerns, necessitating compliance with Articles 9, 10, 11, and 14 regarding risk management, data governance, technical documentation, and human oversight. Compliance concerns identified: Human Oversight Concern, Privacy Concern, Fairness / Bias Concern. Classification confidence: 85%",
+  "evidence": [
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Article 6",
+      "excerpt": "job advertisements, to analyse and filter job applications, and to evaluate candidates;\n(b) AI systems intended to be used to make decisions affecting terms of work-related relationships, the promotion or\ntermination of work-related contractual relationships, to allocate tasks based on individual behaviour or personal\ntraits or characteristics or to monitor and evaluate the performance and behaviour of persons in such\nrelationships.\n5. Access to and enjoyment of essential private services and es",
+      "citation_id": "source_1",
+      "page_number": 127,
+      "page_number_end": 127,
+      "legal_anchor": "Article 6",
+      "anchor_type": "article",
+      "relevance_score": 0.582,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Article 6\nPage: p. 127\nSupport text: \"job advertisements, to analyse and filter job applications, and to evaluate candidates;\n(b) AI systems intended to be used to make decisions affecting terms of work-related relationships, the promotion or\ntermination of work-related contractual relationships, to allocate tasks based on individual…\"\nConfidence: medium"
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 1",
+      "excerpt": "4. Employment, workers management and access to self-employment: AI systems intended to be used for the recruitment or selection of natural persons, for making decisions affecting terms of work-related relationships, promotion or termination of work-related contractual relationships, for task allocation based on individual behaviour or personal traits or characteristics, or for monitoring and evaluating the performance and behaviour of persons in such relationships.",
+      "citation_id": "source_2",
+      "page_number": 1,
+      "page_number_end": 1,
+      "legal_anchor": "Article 1",
+      "anchor_type": "article",
+      "relevance_score": 0.578,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: eu_ai_act_excerpts.txt\nLegal anchor: Article 1\nPage: p. 1\nSupport text: \"4. Employment, workers management and access to self-employment: AI systems intended to be used for the recruitment or selection of natural persons, for making decisions affecting terms of work-related relationships, promotion or termination of work-related contractual relationships, for task all…\"\nConfidence: medium"
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Page 17",
+      "excerpt": "assessment of personality traits and characteristics or the past criminal behaviour of natural persons or groups, for\nprofiling in the course of detection, investigation or prosecution of criminal offences. AI systems specifically\nintended to be used for administrative proceedings by tax and customs authorities as well as by financial intelligence\nunits carrying out administrative tasks analysing information pursuant to Union anti-money laundering law should\nnot be classified as high-risk AI sys",
+      "citation_id": "source_3",
+      "page_number": 17,
+      "page_number_end": 17,
+      "legal_anchor": "Page 17",
+      "anchor_type": null,
+      "relevance_score": 0.512,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Page 17\nPage: p. 17\nSupport text: \"assessment of personality traits and characteristics or the past criminal behaviour of natural persons or groups, for\nprofiling in the course of detection, investigation or prosecution of criminal offences. AI systems specifically\nintended to be used for administrative proceedings by tax and cust…\"\nConfidence: medium"
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Article 6",
+      "excerpt": "will receive or will be able to access, in the context of or within educational and vocational training institutions\nat all levels;\n(d) AI systems intended to be used for monitoring and detecting prohibited behaviour of students during tests in the\ncontext of or within educational and vocational training institutions at all levels.\n4. Employment, workers’ management and access to self-employment:\n(a) AI systems intended to be used for the recruitment or selection of natural persons, in particula",
+      "citation_id": "source_4",
+      "page_number": 127,
+      "page_number_end": 127,
+      "legal_anchor": "Article 6",
+      "anchor_type": "article",
+      "relevance_score": 0.508,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Article 6\nPage: p. 127\nSupport text: \"will receive or will be able to access, in the context of or within educational and vocational training institutions\nat all levels;\n(d) AI systems intended to be used for monitoring and detecting prohibited behaviour of students during tests in the\ncontext of or within educational and vocational …\"\nConfidence: medium"
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Article 11",
+      "excerpt": "end of its retention period, whichever comes first;\n(f) the records of processing activities pursuant to Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU)\n2016/680 include the reasons why the processing of special categories of personal data was strictly necessary to detect\nand correct biases, and why that objective could not be achieved by processing other data.\n6. For the development of high-risk AI systems not using techniques involving the training of AI models, paragraphs 2\nto",
+      "citation_id": "source_5",
+      "page_number": 58,
+      "page_number_end": 58,
+      "legal_anchor": "Article 11",
+      "anchor_type": "article",
+      "relevance_score": 0.507,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Article 11\nPage: p. 58\nSupport text: \"end of its retention period, whichever comes first;\n(f) the records of processing activities pursuant to Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU)\n2016/680 include the reasons why the processing of special categories of personal data was strictly necessary to detect\nand corr…\"\nConfidence: medium"
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Article 4",
+      "excerpt": "based solely on the profiling of a natural person or on assessing their personality traits and characteristics; this\nprohibition shall not apply to AI systems used to support the human assessment of the involvement of a person in\na criminal activity, which is already based on objective and verifiable facts directly linked to a criminal activity;\n(e) the placing on the market, the putting into service for this specific purpose, or the use of AI systems that create or\nexpand facial recognition dat",
+      "citation_id": "source_6",
+      "page_number": 51,
+      "page_number_end": 51,
+      "legal_anchor": "Article 4",
+      "anchor_type": "article",
+      "relevance_score": 0.493,
+      "citation_confidence": "low",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Article 4\nPage: p. 51\nSupport text: \"based solely on the profiling of a natural person or on assessing their personality traits and characteristics; this\nprohibition shall not apply to AI systems used to support the human assessment of the involvement of a person in\na criminal activity, which is already based on objective and verifi…\"\nConfidence: low"
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Page 16",
+      "excerpt": "should, in a meaningful manner, involve employees and persons providing services through platforms as referred to\nin the Commission Work Programme 2021. Throughout the recruitment process and in the evaluation, promotion,\nor retention of persons in work-related contractual relationships, such systems may perpetuate historical patterns of\ndiscrimination, for example against women, certain age groups, persons with disabilities, or persons of certain racial\nor ethnic origins or sexual orientation. ",
+      "citation_id": "source_7",
+      "page_number": 16,
+      "page_number_end": 16,
+      "legal_anchor": "Page 16",
+      "anchor_type": null,
+      "relevance_score": 0.489,
+      "citation_confidence": "low",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Page 16\nPage: p. 16\nSupport text: \"should, in a meaningful manner, involve employees and persons providing services through platforms as referred to\nin the Commission Work Programme 2021. Throughout the recruitment process and in the evaluation, promotion,\nor retention of persons in work-related contractual relationships, such sys…\"\nConfidence: low"
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 1",
+      "excerpt": "(d) the placing on the market, the putting into service, or the use of an AI system for making risk assessments of natural persons in order to assess or predict the risk of a natural person committing a criminal offence, based solely on the profiling of a natural person or on assessing their personality traits and characteristics; this prohibition shall not apply to AI systems used to support the human assessment of the involvement of a person in a criminal activity, which is already based on ob",
+      "citation_id": "source_8",
+      "page_number": 1,
+      "page_number_end": 1,
+      "legal_anchor": "Article 1",
+      "anchor_type": "article",
+      "relevance_score": 0.487,
+      "citation_confidence": "low",
+      "formatted_citation": "Source: eu_ai_act_excerpts.txt\nLegal anchor: Article 1\nPage: p. 1\nSupport text: \"(d) the placing on the market, the putting into service, or the use of an AI system for making risk assessments of natural persons in order to assess or predict the risk of a natural person committing a criminal offence, based solely on the profiling of a natural person or on assessing their pers…\"\nConfidence: low"
+    }
+  ],
+  "citations": [
+    "[source_1] EU_AI_ACT_2024.pdf, Article 6, Page 127",
+    "[source_2] eu_ai_act_excerpts.txt, Article 1, Page 1",
+    "[source_3] EU_AI_ACT_2024.pdf, Page 17, Page 17",
+    "[source_4] EU_AI_ACT_2024.pdf, Article 6, Page 127",
+    "[source_5] EU_AI_ACT_2024.pdf, Article 11, Page 58",
+    "[source_6] EU_AI_ACT_2024.pdf, Article 4, Page 51",
+    "[source_7] EU_AI_ACT_2024.pdf, Page 16, Page 16",
+    "[source_8] eu_ai_act_excerpts.txt, Article 1, Page 1"
+  ],
+  "recommended_mitigations": [
+    "Establish and document a comprehensive Risk Management System (RMS) covering the entire lifecycle of the AI system as per Article 9.",
+    "Develop a Data Governance Policy and conduct a Quality Assessment Report to ensure compliance with Article 10.",
+    "Prepare and maintain comprehensive Technical Documentation in accordance with Article 11 before the system is placed on the market.",
+    "Implement human oversight measures, including Human-in-the-loop operational guidelines and UI/UX evidence, to comply with Article 14.",
+    "Conduct regular audits to assess and mitigate biases in the AI system's decision-making processes."
+  ],
+  "obligations": [
+    {
+      "article_ref": "Article 9",
+      "description": "Establish, implement, document and maintain a risk management system.",
+      "evidence_needed": "Documented Risk Management System (RMS) covering the entire lifecycle."
+    },
+    {
+      "article_ref": "Article 10",
+      "description": "Data and data governance requirements.",
+      "evidence_needed": "Data Governance Policy and Quality Assessment Report."
+    },
+    {
+      "article_ref": "Article 11",
+      "description": "Technical documentation must be drawn up before the system is placed on the market.",
+      "evidence_needed": "Comprehensive Technical Documentation as per Annex IV."
+    },
+    {
+      "article_ref": "Article 14",
+      "description": "Human oversight measures.",
+      "evidence_needed": "Human-in-the-loop operational guidelines and UI/UX evidence."
+    }
+  ],
+  "evidence_checklist": [
+    {
+      "item": "Risk Management System documentation",
+      "status": "gap",
+      "article_ref": "Article 9"
+    },
+    {
+      "item": "Data Quality Assessment Report",
+      "status": "gap",
+      "article_ref": "Article 10"
+    },
+    {
+      "item": "Technical Documentation (Annex IV)",
+      "status": "gap",
+      "article_ref": "Article 11"
+    },
+    {
+      "item": "Human Oversight Operational Guidelines",
+      "status": "gap",
+      "article_ref": "Article 14"
+    }
+  ],
+  "gaps": [
+    {
+      "item": "Risk Management System documentation",
+      "reason": "Required by Article 9 for this risk level.",
+      "article_ref": "Article 9"
+    },
+    {
+      "item": "Data Quality Assessment Report",
+      "reason": "Required by Article 10 for this risk level.",
+      "article_ref": "Article 10"
+    },
+    {
+      "item": "Technical Documentation (Annex IV)",
+      "reason": "Required by Article 11 for this risk level.",
+      "article_ref": "Article 11"
+    },
+    {
+      "item": "Human Oversight Operational Guidelines",
+      "reason": "Required by Article 14 for this risk level.",
+      "article_ref": "Article 14"
+    }
+  ],
+  "confidence_score": 0.85,
+  "disclaimer": "This is a compliance risk assessment for decision-support purposes only. It does not constitute legal advice."
+}

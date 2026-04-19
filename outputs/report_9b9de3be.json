@@ -1,0 +1,91 @@
+{
+  "id": "5e0b88e7-0fda-4c96-8a14-bd5445c93290",
+  "assessment_id": "9b9de3be-173f-4c36-ab79-cc84f1cbb498",
+  "title": "Compliance Risk Assessment: AI-Based Medical Diagnosis Support System",
+  "generated_at": "2026-03-18T05:41:07.948189",
+  "use_case_summary": "**AI System:** AI-Based Medical Diagnosis Support System\n**Description:** This AI system assists doctors in diagnosing diseases by analyzing medical data such as patient records, lab results, and medical images (e.g., X-rays, MRIs). It uses machine learning and deep learning models to detect patterns and identify possible conditions like cancer, pneumonia, or heart disease.\n\nThe system provides diagnostic suggestions and risk scores, helping doctors make more accurate and faster decisions. It does not fully replace doctors but supports clinical decision-making.\n**Domain:** Healthcare\n**Users Affected:** Patients, doctors, hospitals, healthcare providers\n**Personal Data:** Yes\n**Sensitive Data:** Yes\n**Automated Decisions:** Yes\n**Impacts Rights:** Yes",
+  "classification": "High Risk",
+  "compliance_concerns": [
+    "Fairness / Bias Concern",
+    "Human Oversight Concern",
+    "Privacy Concern"
+  ],
+  "explanation": "The AI-Based Medical Diagnosis Support System qualifies as a high-risk AI system as it is used in healthcare for clinical decision-making, which directly affects patient safety and health outcomes (EU AI Act, Article 15). It processes personal and sensitive data, raising privacy concerns, and involves automated decision-making without full human oversight, which can lead to fairness and bias issues (EU AI Act, Article 10). Compliance concerns identified: Fairness / Bias Concern, Human Oversight Concern, Privacy Concern. Classification confidence: 85%",
+  "evidence": [
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "and medical aid, as well as of emerge ncy healthcare patient triage syste ms, should also be classif ied as high-r isk since \nthey make decisions in very critical situations for the life and health of persons and their proper ty.\n(59) Given their role and responsibility , actions by law enforcement author ities involving certain uses of AI systems are \ncharacterised by a signifi cant degree of power imbalance and may lead to surveillance, arrest or depr ivation of \na natural person’s liber ty as",
+      "citation_id": "source_1",
+      "relevance_score": 0.558
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 10 - Data and data governance",
+      "excerpt": "2. Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the AI system. Those practices shall concern in particular: (a) the relevant design choices; (b) data collection processes and the origin of data; (c) the relevant data preparation processing operations; (d) the formulation of assumptions; (e) an assessment of the availability, quantity and suitability of the data sets that are needed; (f) examination",
+      "citation_id": "source_2",
+      "relevance_score": 0.494
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "Article 59\nFurther processing of personal data for dev eloping certain AI systems in the public interest in the AI regulator y \nsandbo x\n1. In the AI regulato ry sandbo x, personal data lawfully collect ed for other purposes may be processed solely for the \npurpose of developing, training and testing certain AI systems in the sandbo x when all of the following conditions are met:\n(a)AI syste ms shall be developed for safeguarding substantial public intere st by a public author ity or another nat",
+      "citation_id": "source_3",
+      "relevance_score": 0.479
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "of their biometr ic data may lead to discr iminat ory outcomes and can be intrusive to the rights and freedoms of the \nconcer ned persons. Consider ing the imbalance of power in the cont ext of work or education, combined with the \nintrusive nature of these syste ms, such systems could lead to detr imental or unfa vourable treatment of certain \nnatural persons or whole groups thereof. Theref ore, the placing on the marke t, the putting into service, or the use of \nAI syste ms intended to be used",
+      "citation_id": "source_4",
+      "relevance_score": 0.478
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 10 - Data and data governance",
+      "excerpt": "Article 10 - Data and data governance\n1. High-risk AI systems which make use of techniques involving the training of AI models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5.",
+      "citation_id": "source_5",
+      "relevance_score": 0.474
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "between businesses and with gover nment in the public intere st will be instr umental to provide trustful, accountable \nand non-discr iminat ory access to high-quality data for the training, validation and testing of AI syste ms. For \nexam ple, in health, the European health data space will facilitat e non-discr iminatory access to health data and the \ntraining of AI algor ithms on those data sets, in a privacy-preser ving, secure, timely , transparent and trustw orthy \nmanner , and with an appr",
+      "citation_id": "source_6",
+      "relevance_score": 0.473
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 15 - Accuracy, robustness and cybersecurity",
+      "excerpt": "6. Law enforcement: AI systems intended to be used by or on behalf of law enforcement authorities for making individual risk assessments of natural persons; as polygraphs and similar tools; to evaluate the reliability of evidence in the course of investigation or prosecution of criminal offences; for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons.",
+      "citation_id": "source_7",
+      "relevance_score": 0.453
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 15 - Accuracy, robustness and cybersecurity",
+      "excerpt": "5. Access to and enjoyment of essential private services and essential public services and benefits: AI systems intended to be used by public authorities to evaluate the eligibility of natural persons for essential public assistance benefits and services; AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score; AI systems intended to be used for risk assessment and pricing in relation to natural persons in the case of life and health ins",
+      "citation_id": "source_8",
+      "relevance_score": 0.447
+    }
+  ],
+  "citations": [
+    "[source_1] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_2] eu_ai_act_excerpts.txt, Article 10 - Data and data governance",
+    "[source_3] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_4] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_5] eu_ai_act_excerpts.txt, Article 10 - Data and data governance",
+    "[source_6] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_7] eu_ai_act_excerpts.txt, Article 15 - Accuracy, robustness and cybersecurity",
+    "[source_8] eu_ai_act_excerpts.txt, Article 15 - Accuracy, robustness and cybersecurity"
+  ],
+  "recommended_mitigations": [
+    "Implement robust data governance practices to ensure the quality and provenance of training data.",
+    "Establish a clear human oversight mechanism to review and validate AI-generated diagnostic suggestions.",
+    "Conduct regular bias assessments to ensure fairness in AI outputs and mitigate potential discriminatory impacts.",
+    "Ensure transparency by providing clear documentation on the AI system's decision-making processes.",
+    "Develop a user training program for healthcare professionals to effectively interpret AI suggestions."
+  ],
+  "confidence_score": 0.85,
+  "disclaimer": "This is a compliance risk assessment for decision-support purposes only. It does not constitute legal advice."
+}

@@ -1,0 +1,201 @@
+{
+  "id": "f7fcd0a1-da55-4411-a27b-f5c91f1c6581",
+  "assessment_id": "fa996265-4075-4fa2-a871-e337e74302ff",
+  "title": "Compliance Risk Assessment: Medical Image Analyzer",
+  "generated_at": "2026-04-08T21:35:00.792167",
+  "use_case_summary": "**AI System:** Medical Image Analyzer\n**Description:** Analyzes medical images using biometrics\n**Domain:** Healthcare\n**Personal Data:** No\n**Sensitive Data:** No\n**Automated Decisions:** No\n**Impacts Rights:** No",
+  "classification": "High Risk",
+  "compliance_concerns": [],
+  "explanation": "The AI use case is classified as high risk due to its use of biometrics in a medical context, which falls under the high-risk AI systems outlined in Article 6(2) and Annex III of the EU AI Act. The obligations triggered include the need for a documented risk management system (Article 9), data governance requirements (Article 10), comprehensive technical documentation (Article 11), and human oversight measures (Article 14). Classification confidence: 85%",
+  "evidence": [
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Page 5",
+      "excerpt": "AI systems intended to be used for biometric verification, which includes authentication, the sole purpose of which\nis to confirm that a specific natural person is the person he or she claims to be and to confirm the identity of\na natural person for the sole purpose of having access to a service, unlocking a device or having security access to\npremises. That exclusion is justified by the fact that such systems are likely to have a minor impact on fundamental\nrights of natural persons compared to",
+      "citation_id": "source_1",
+      "page_number": 5,
+      "page_number_end": 5,
+      "legal_anchor": "Page 5",
+      "anchor_type": null,
+      "relevance_score": 0.56,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Page 5\nPage: p. 5\nSupport text: \"AI systems intended to be used for biometric verification, which includes authentication, the sole purpose of which\nis to confirm that a specific natural person is the person he or she claims to be and to confirm the identity of\na natural person for the sole purpose of having access to a service,…\"\nConfidence: medium"
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 1",
+      "excerpt": "1. Biometrics: AI systems intended to be used for the 'real-time' and 'post' remote biometric identification of natural persons.\n2. Critical infrastructure: AI systems intended to be used as safety components in the management and operation of critical digital infrastructure, road traffic, or in the supply of water, gas, heating or electricity.",
+      "citation_id": "source_2",
+      "page_number": 1,
+      "page_number_end": 1,
+      "legal_anchor": "Article 1",
+      "anchor_type": "article",
+      "relevance_score": 0.559,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: eu_ai_act_excerpts.txt\nLegal anchor: Article 1\nPage: p. 1\nSupport text: \"1. Biometrics: AI systems intended to be used for the 'real-time' and 'post' remote biometric identification of natural persons.\n2. Critical infrastructure: AI systems intended to be used as safety components in the management and operation of critical digital infrastructure, road traffic, or in …\"\nConfidence: medium"
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Article 6",
+      "excerpt": "EN\nOJ L, 12.7.2024\nANNEX III\nHigh-risk AI systems referred to in Article 6(2)\nHigh-risk AI systems pursuant to Article 6(2) are the AI systems listed in any of the following areas:\n1. Biometrics, in so far as their use is permitted under relevant Union or national law:\n(a) remote biometric identification systems.\nThis shall not include AI systems intended to be used for biometric verification the sole purpose of which is to\nconfirm that a specific natural person is the person he or she claims to",
+      "citation_id": "source_3",
+      "page_number": 127,
+      "page_number_end": 127,
+      "legal_anchor": "Article 6",
+      "anchor_type": "article",
+      "relevance_score": 0.555,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Article 6\nPage: p. 127\nSupport text: \"EN\nOJ L, 12.7.2024\nANNEX III\nHigh-risk AI systems referred to in Article 6(2)\nHigh-risk AI systems pursuant to Article 6(2) are the AI systems listed in any of the following areas:\n1. Biometrics, in so far as their use is permitted under relevant Union or national law:\n(a) remote biometric identi…\"\nConfidence: medium"
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Page 9",
+      "excerpt": "accordance with the applicable law and medical standards, for example explicit consent of the individuals or their\nlegal representatives. In addition, common and legitimate commercial practices, for example in the field of\nadvertising, that comply with the applicable law should not, in themselves, be regarded as constituting harmful\nmanipulative AI-enabled practices.\n(30) Biometric categorisation systems that are based on natural persons’ biometric data, such as an individual person’s",
+      "citation_id": "source_4",
+      "page_number": 9,
+      "page_number_end": 9,
+      "legal_anchor": "Page 9",
+      "anchor_type": null,
+      "relevance_score": 0.543,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Page 9\nPage: p. 9\nSupport text: \"accordance with the applicable law and medical standards, for example explicit consent of the individuals or their\nlegal representatives. In addition, common and legitimate commercial practices, for example in the field of\nadvertising, that comply with the applicable law should not, in themselves…\"\nConfidence: medium"
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Article 4",
+      "excerpt": "Board, provide guidelines specifying that practical implementation, completed by a comprehensive list of practical\nexamples of use cases of AI systems that are high-risk and use cases that are not.\n(54) As biometric data constitutes a special category of personal data, it is appropriate to classify as high-risk several\ncritical-use cases of biometric systems, insofar as their use is permitted under relevant Union and national law.\nTechnical inaccuracies of AI systems intended for the remote biom",
+      "citation_id": "source_5",
+      "page_number": 15,
+      "page_number_end": 15,
+      "legal_anchor": "Article 4",
+      "anchor_type": "article",
+      "relevance_score": 0.538,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Article 4\nPage: p. 15\nSupport text: \"Board, provide guidelines specifying that practical implementation, completed by a comprehensive list of practical\nexamples of use cases of AI systems that are high-risk and use cases that are not.\n(54) As biometric data constitutes a special category of personal data, it is appropriate to classi…\"\nConfidence: medium"
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Article 71",
+      "excerpt": "used for biometric categorisation and emotion recognition, which are permitted by law to detect, prevent or investigate\ncriminal offences, subject to appropriate safeguards for the rights and freedoms of third parties, and in accordance with\nUnion law.\n4. Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake, shall\ndisclose that the content has been artificially generated or manipulated. This obligation shall not apply where the use is",
+      "citation_id": "source_6",
+      "page_number": 82,
+      "page_number_end": 82,
+      "legal_anchor": "Article 71",
+      "anchor_type": "article",
+      "relevance_score": 0.538,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Article 71\nPage: p. 82\nSupport text: \"used for biometric categorisation and emotion recognition, which are permitted by law to detect, prevent or investigate\ncriminal offences, subject to appropriate safeguards for the rights and freedoms of third parties, and in accordance with\nUnion law.\n4. Deployers of an AI system that generates …\"\nConfidence: medium"
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Article 4",
+      "excerpt": "for the sole purpose of having access to a service, unlocking a device or having secure access to premises. In addition,\nAI systems intended to be used for biometric categorisation according to sensitive attributes or characteristics\nprotected under Article 9(1) of Regulation (EU) 2016/679 on the basis of biometric data, in so far as these are not\nprohibited under this Regulation, and emotion recognition systems that are not prohibited under this Regulation,\nshould be classified as high-risk. Bi",
+      "citation_id": "source_7",
+      "page_number": 15,
+      "page_number_end": 15,
+      "legal_anchor": "Article 4",
+      "anchor_type": "article",
+      "relevance_score": 0.523,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Article 4\nPage: p. 15\nSupport text: \"for the sole purpose of having access to a service, unlocking a device or having secure access to premises. In addition,\nAI systems intended to be used for biometric categorisation according to sensitive attributes or characteristics\nprotected under Article 9(1) of Regulation (EU) 2016/679 on the…\"\nConfidence: medium"
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Article 2",
+      "excerpt": "natural persons on the basis of their biometric data;\n(40) ‘biometric categorisation system’ means an AI system for the purpose of assigning natural persons to specific\ncategories on the basis of their biometric data, unless it is ancillary to another commercial service and strictly\nnecessary for objective technical reasons;\n(41) ‘remote biometric identification system’ means an AI system for the purpose of identifying natural persons, without\ntheir active involvement, typically at a distance th",
+      "citation_id": "source_8",
+      "page_number": 48,
+      "page_number_end": 48,
+      "legal_anchor": "Article 2",
+      "anchor_type": "article",
+      "relevance_score": 0.514,
+      "citation_confidence": "medium",
+      "formatted_citation": "Source: EU_AI_ACT_2024.pdf\nLegal anchor: Article 2\nPage: p. 48\nSupport text: \"natural persons on the basis of their biometric data;\n(40) ‘biometric categorisation system’ means an AI system for the purpose of assigning natural persons to specific\ncategories on the basis of their biometric data, unless it is ancillary to another commercial service and strictly\nnecessary for…\"\nConfidence: medium"
+    }
+  ],
+  "citations": [
+    "[source_1] EU_AI_ACT_2024.pdf, Page 5, Page 5",
+    "[source_2] eu_ai_act_excerpts.txt, Article 1, Page 1",
+    "[source_3] EU_AI_ACT_2024.pdf, Article 6, Page 127",
+    "[source_4] EU_AI_ACT_2024.pdf, Page 9, Page 9",
+    "[source_5] EU_AI_ACT_2024.pdf, Article 4, Page 15",
+    "[source_6] EU_AI_ACT_2024.pdf, Article 71, Page 82",
+    "[source_7] EU_AI_ACT_2024.pdf, Article 4, Page 15",
+    "[source_8] EU_AI_ACT_2024.pdf, Article 2, Page 48"
+  ],
+  "recommended_mitigations": [
+    "Establish and document a comprehensive Risk Management System (RMS) covering the entire lifecycle of the AI system as per Article 9.",
+    "Develop a Data Governance Policy and conduct a Quality Assessment Report to meet the data governance requirements outlined in Article 10.",
+    "Prepare and maintain comprehensive Technical Documentation in accordance with Annex IV before placing the system on the market, as required by Article 11.",
+    "Implement human-in-the-loop operational guidelines to ensure effective human oversight, as mandated by Article 14.",
+    "Conduct regular audits and assessments to ensure compliance with applicable laws and regulations regarding the use of biometric data."
+  ],
+  "obligations": [
+    {
+      "article_ref": "Article 9",
+      "description": "Establish, implement, document and maintain a risk management system.",
+      "evidence_needed": "Documented Risk Management System (RMS) covering the entire lifecycle."
+    },
+    {
+      "article_ref": "Article 10",
+      "description": "Data and data governance requirements.",
+      "evidence_needed": "Data Governance Policy and Quality Assessment Report."
+    },
+    {
+      "article_ref": "Article 11",
+      "description": "Technical documentation must be drawn up before the system is placed on the market.",
+      "evidence_needed": "Comprehensive Technical Documentation as per Annex IV."
+    },
+    {
+      "article_ref": "Article 14",
+      "description": "Human oversight measures.",
+      "evidence_needed": "Human-in-the-loop operational guidelines and UI/UX evidence."
+    }
+  ],
+  "evidence_checklist": [
+    {
+      "item": "Risk Management System documentation",
+      "status": "gap",
+      "article_ref": "Article 9"
+    },
+    {
+      "item": "Data Quality Assessment Report",
+      "status": "gap",
+      "article_ref": "Article 10"
+    },
+    {
+      "item": "Technical Documentation (Annex IV)",
+      "status": "gap",
+      "article_ref": "Article 11"
+    },
+    {
+      "item": "Human Oversight Operational Guidelines",
+      "status": "gap",
+      "article_ref": "Article 14"
+    }
+  ],
+  "gaps": [
+    {
+      "item": "Risk Management System documentation",
+      "reason": "Required by Article 9 for this risk level.",
+      "article_ref": "Article 9"
+    },
+    {
+      "item": "Data Quality Assessment Report",
+      "reason": "Required by Article 10 for this risk level.",
+      "article_ref": "Article 10"
+    },
+    {
+      "item": "Technical Documentation (Annex IV)",
+      "reason": "Required by Article 11 for this risk level.",
+      "article_ref": "Article 11"
+    },
+    {
+      "item": "Human Oversight Operational Guidelines",
+      "reason": "Required by Article 14 for this risk level.",
+      "article_ref": "Article 14"
+    }
+  ],
+  "confidence_score": 0.85,
+  "disclaimer": "This is a compliance risk assessment for decision-support purposes only. It does not constitute legal advice."
+}

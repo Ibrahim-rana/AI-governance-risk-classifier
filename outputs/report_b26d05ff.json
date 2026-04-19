@@ -1,0 +1,91 @@
+{
+  "id": "fd0dd806-9a9f-437b-a3ab-64c9f95fc397",
+  "assessment_id": "b26d05ff-9a72-4759-b47c-2f82afef3002",
+  "title": "Compliance Risk Assessment: Automated Hiring Screener",
+  "generated_at": "2026-03-17T20:15:17.384979",
+  "use_case_summary": "**AI System:** Automated Hiring Screener\n**Description:** Screens resumes and predicts candidate success.\n**Domain:** Employment\n**Personal Data:** Yes\n**Sensitive Data:** No\n**Automated Decisions:** Yes\n**Impacts Rights:** Yes",
+  "classification": "High Risk",
+  "compliance_concerns": [
+    "Human Oversight Concern",
+    "Privacy Concern",
+    "Fairness / Bias Concern"
+  ],
+  "explanation": "The use case involves an AI system intended for recruitment, which is classified as high risk under Article 15 of the EU AI Act, as it affects employment decisions and processes personal data. Additionally, the automated decision-making aspect raises concerns regarding fairness and the potential for bias, as well as the need for human oversight in the decision-making process. Compliance concerns identified: Human Oversight Concern, Privacy Concern, Fairness / Bias Concern. Classification confidence: 85%",
+  "evidence": [
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 15 - Accuracy, robustness and cybersecurity",
+      "excerpt": "4. Employment, workers management and access to self-employment: AI systems intended to be used for the recruitment or selection of natural persons, for making decisions affecting terms of work-related relationships, promotion or termination of work-related contractual relationships, for task allocation based on individual behaviour or personal traits or characteristics, or for monitoring and evaluating the performance and behaviour of persons in such relationships.",
+      "citation_id": "source_1",
+      "relevance_score": 0.719
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "enforcement and of the use of AI systems of biometr ic cate gorisation for the purpose of law enforcement, it is \nappropr iate to base this Regulation, in so far as those specific rules are concer ned, on Article 16 TFEU. In light of \nthose specific rules and the recourse to Article 16 TFEU, it is appropr iate to consult the European Data Protection \nBoard.\n(4) AI is a fast evolving family of technologies that contr ibut es to a wide array of economic, environmental and societal \nbenefits across",
+      "citation_id": "source_2",
+      "relevance_score": 0.599
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 15 - Accuracy, robustness and cybersecurity",
+      "excerpt": "6. Law enforcement: AI systems intended to be used by or on behalf of law enforcement authorities for making individual risk assessments of natural persons; as polygraphs and similar tools; to evaluate the reliability of evidence in the course of investigation or prosecution of criminal offences; for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons.",
+      "citation_id": "source_3",
+      "relevance_score": 0.589
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 15 - Accuracy, robustness and cybersecurity",
+      "excerpt": "1. Biometrics: AI systems intended to be used for the 'real-time' and 'post' remote biometric identification of natural persons.\n2. Critical infrastructure: AI systems intended to be used as safety components in the management and operation of critical digital infrastructure, road traffic, or in the supply of water, gas, heating or electricity.\n3. Education and vocational training: AI systems intended to be used to determine access to or admission to educational and vocational training instituti",
+      "citation_id": "source_4",
+      "relevance_score": 0.579
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 5 - Prohibited AI practices",
+      "excerpt": "(d) the placing on the market, the putting into service, or the use of an AI system for making risk assessments of natural persons in order to assess or predict the risk of a natural person committing a criminal offence, based solely on the profiling of a natural person or on assessing their personality traits and characteristics; this prohibition shall not apply to AI systems used to support the human assessment of the involvement of a person in a criminal activity, which is already based on ob",
+      "citation_id": "source_5",
+      "relevance_score": 0.566
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "(j)a shor t summar y of the AI project developed in the sandbo x, its objectives and expecte d results is published on the \nwebsite of the compet ent author ities; this obligati on shall not cover sensitive operational data in relation to the activities \nof law enforcement, border control, immigration or asylum author ities.\n2. For the purposes of the prevention, invest igation, detection or prosecution of criminal offences or the execution of \ncriminal penalties, including safeguarding against ",
+      "citation_id": "source_6",
+      "relevance_score": 0.563
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 5 - Prohibited AI practices",
+      "excerpt": "(f) the placing on the market, the putting into service, or the use of AI systems to infer emotions of a natural person in the areas of workplace and education institutions, except where the use of the AI system is intended to be put in place or into the market for medical or safety reasons;",
+      "citation_id": "source_7",
+      "relevance_score": 0.556
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "services as set out in Regulation (EU) 2022/2065 of the European Parliament and of the Council (15).\n(12) The notion of ‘AI system’ in this Regulation should be clearly defined and should be closely aligned with the work of \ninternational organisations working on AI to ensure legal certainty , facilitate inter national conve rgence and wide \naccep tance, while providing the flexibility to accommodate the rapid technologi cal developments in this field. \nMoreo ver, the definition should be based ",
+      "citation_id": "source_8",
+      "relevance_score": 0.545
+    }
+  ],
+  "citations": [
+    "[source_1] eu_ai_act_excerpts.txt, Article 15 - Accuracy, robustness and cybersecurity",
+    "[source_2] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_3] eu_ai_act_excerpts.txt, Article 15 - Accuracy, robustness and cybersecurity",
+    "[source_4] eu_ai_act_excerpts.txt, Article 15 - Accuracy, robustness and cybersecurity",
+    "[source_5] eu_ai_act_excerpts.txt, Article 5 - Prohibited AI practices",
+    "[source_6] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_7] eu_ai_act_excerpts.txt, Article 5 - Prohibited AI practices",
+    "[source_8] EU_AI_ACT_2024.pdf, Full Document"
+  ],
+  "recommended_mitigations": [
+    "Implement a transparent algorithm that allows for explainability of decisions made by the AI system.",
+    "Ensure human oversight is integrated into the hiring process to review and validate AI-generated recommendations.",
+    "Conduct regular audits to assess and mitigate any biases in the AI system's decision-making.",
+    "Establish clear data retention and minimization practices to protect candidate personal data.",
+    "Provide candidates with information about how their data is used and the role of AI in the hiring process."
+  ],
+  "confidence_score": 0.85,
+  "disclaimer": "This is a compliance risk assessment for decision-support purposes only. It does not constitute legal advice."
+}

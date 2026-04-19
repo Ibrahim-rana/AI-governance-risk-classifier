@@ -1,0 +1,123 @@
+# Risk Taxonomy Configuration
+# Defines compliance risk categories, obligations, and required evidence.
+
+categories:
+  - name: "Prohibited / Unacceptable Risk"
+    level: "prohibited"
+    severity: 5
+    description: "AI practices that are explicitly prohibited under the EU AI Act."
+    triggers:
+      - "manipulative or exploitative AI techniques"
+      - "social scoring by public authorities"
+      - "real-time remote biometric identification in public spaces for law enforcement"
+      - "biometric categorization using sensitive characteristics"
+      - "predictive policing based solely on profiling"
+      - "emotion recognition in workplace or education"
+      - "untargeted scraping of facial images"
+      - "exploitation of vulnerabilities of specific groups"
+    keywords: ["social scoring", "manipulation", "mass surveillance"]
+    obligations:
+      - article_ref: "Article 5"
+        description: "Prohibition of specific AI practices."
+        evidence_needed: "System must be decommissioned or significantly redesigned to remove prohibited features."
+    evidence_checklist:
+      - item: "Decommissioning Plan or Major Redesign Architecture"
+        article_ref: "Article 5"
+
+  - name: "High Risk"
+    level: "high"
+    severity: 4
+    description: "AI systems posing significant risks requiring conformity assessment."
+    triggers:
+      - "is_safety_component: true"
+      - "domain: healthcare|finance|employment|education|law enforcement|critical infrastructure"
+      - "ai_technique: biometrics"
+    keywords: ["recruitment", "medical diagnosis", "credit scoring", "biometric text"]
+    obligations:
+      - article_ref: "Article 9"
+        description: "Establish, implement, document and maintain a risk management system."
+        evidence_needed: "Documented Risk Management System (RMS) covering the entire lifecycle."
+      - article_ref: "Article 10"
+        description: "Data and data governance requirements."
+        evidence_needed: "Data Governance Policy and Quality Assessment Report."
+      - article_ref: "Article 11"
+        description: "Technical documentation must be drawn up before the system is placed on the market."
+        evidence_needed: "Comprehensive Technical Documentation as per Annex IV."
+      - article_ref: "Article 14"
+        description: "Human oversight measures."
+        evidence_needed: "Human-in-the-loop operational guidelines and UI/UX evidence."
+    evidence_checklist:
+      - item: "Risk Management System documentation"
+        article_ref: "Article 9"
+      - item: "Data Quality Assessment Report"
+        article_ref: "Article 10"
+      - item: "Technical Documentation (Annex IV)"
+        article_ref: "Article 11"
+      - item: "Human Oversight Operational Guidelines"
+        article_ref: "Article 14"
+
+  - name: "Limited Risk"
+    level: "limited"
+    severity: 2
+    description: "AI systems with specific transparency obligations (e.g., chatbots, deepfakes)."
+    triggers:
+      - "deployment_context: customer-facing"
+      - "ai_technique: LLM/GenAI"
+      - "emotion recognition system"
+    keywords: ["chatbot", "deepfake", "synthetic content"]
+    obligations:
+      - article_ref: "Article 50"
+        description: "Transparency obligations for certain AI systems."
+        evidence_needed: "Clear user-facing disclosures that they are interacting with an AI system."
+    evidence_checklist:
+      - item: "User Interface mockups showing AI disclosure"
+        article_ref: "Article 50"
+      - item: "Terms of Service detailing AI usage"
+        article_ref: "Article 50"
+
+  - name: "Minimal Risk"
+    level: "minimal"
+    severity: 1
+    description: "AI systems with minimal regulatory requirements under the EU AI Act."
+    triggers:
+      - "deployment_context: internal tool"
+      - "no impact on natural persons"
+    keywords: ["spam filter", "inventory optimization"]
+    obligations:
+      - article_ref: "Title IX"
+        description: "Encouraged to draw up voluntary codes of conduct."
+        evidence_needed: "Internal AI principles or voluntary code of conduct (Optional)."
+    evidence_checklist:
+      - item: "Voluntary Code of Conduct"
+        article_ref: "Title IX"
+
+concern_flags:
+  - name: "Privacy Concern"
+    triggers: ["personal data is processed"]
+    input_fields: ["personal_data", "sensitive_data"]
+
+  - name: "Fairness / Bias Concern"
+    triggers: ["makes or supports decisions about people"]
+    input_fields: ["impacts_rights", "automated_decisions"]
+
+  - name: "Transparency Concern"
+    triggers: ["users not informed AI is being used"]
+    input_fields: []
+
+  - name: "Human Oversight Concern"
+    triggers: ["fully automated decisions"]
+    input_fields: ["automated_decisions"]
+
+  - name: "Data Governance Concern"
+    triggers: ["training data quality is unclear"]
+    input_fields: []
+
+domains_high_risk:
+  - "healthcare"
+  - "finance"
+  - "insurance"
+  - "employment"
+  - "education"
+  - "law enforcement"
+  - "border control"
+  - "critical infrastructure"

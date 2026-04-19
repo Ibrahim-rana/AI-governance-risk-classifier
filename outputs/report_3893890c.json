@@ -1,0 +1,24 @@
+{
+  "id": "d4e036f7-8f2f-432c-aac3-10c1ae983636",
+  "assessment_id": "3893890c-ed01-46c8-8ccc-18a693af6ef0",
+  "title": "Compliance Risk Assessment: AI Recruitment Screening Tool",
+  "generated_at": "2026-03-17T18:32:03.598713",
+  "use_case_summary": "**AI System:** AI Recruitment Screening Tool\n**Description:** An AI system that automatically screens job applications, ranks candidates based on resume analysis, and filters out applicants before human review. Uses NLP to parse CVs and ML models to predict candidate suitability.\n**Domain:** dancers\n**Users Affected:** jobbers\n**Personal Data:** Yes\n**Sensitive Data:** Yes\n**Automated Decisions:** No\n**Impacts Rights:** Yes",
+  "classification": "High Risk",
+  "compliance_concerns": [
+    "Privacy Concern",
+    "Fairness / Bias Concern"
+  ],
+  "explanation": "This AI system (AI Recruitment Screening Tool) has been classified as High Risk. Operating in the dancers domain. It processes personal data, triggering GDPR obligations. It may impact fundamental rights, opportunities, or legal status of individuals. Note: No regulatory documents ingested - classification based on rule-based analysis only. Compliance concerns identified: Privacy Concern, Fairness / Bias Concern. Classification confidence: 72%",
+  "evidence": [],
+  "citations": [],
+  "recommended_mitigations": [
+    "Document the lawful basis for processing personal data under GDPR Article 6",
+    "Conduct a Data Protection Impact Assessment (DPIA) per GDPR Article 35",
+    "Conduct a fundamental rights impact assessment",
+    "Perform a bias and fairness assessment on training data and model outputs",
+    "Ensure compliance with EU AI Act high-risk system requirements (Articles 9-15)"
+  ],
+  "confidence_score": 0.72,
+  "disclaimer": "This is a compliance risk assessment for decision-support purposes only. It does not constitute legal advice."
+}

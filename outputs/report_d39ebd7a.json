@@ -1,0 +1,99 @@
+{
+  "id": "9cd7b99b-49cd-4d8b-b1f6-dd181f8e307b",
+  "assessment_id": "d39ebd7a-9d82-42ca-86aa-4791da39951c",
+  "title": "Compliance Risk Assessment: Resume Screener",
+  "generated_at": "2026-03-18T06:34:34.236991",
+  "use_case_summary": "**AI System:** Resume Screener\n**Description:** AI screening for HR recruiting\n**Domain:** HR\n**Personal Data:** Yes\n**Sensitive Data:** No\n**Automated Decisions:** Yes\n**Impacts Rights:** No",
+  "classification": "High Risk",
+  "compliance_concerns": [
+    "Privacy Concern",
+    "Human Oversight Concern",
+    "Fairness / Bias Concern"
+  ],
+  "explanation": "The AI resume screener is intended for use in recruitment, which is classified as a high-risk AI system under Article 15 of the EU AI Act, as it affects employment decisions. Additionally, it processes personal data, triggering privacy concerns, and involves automated decision-making, raising fairness and human oversight issues as outlined in the retrieved regulatory text. Compliance concerns identified: Privacy Concern, Human Oversight Concern, Fairness / Bias Concern. Classification confidence: 85%",
+  "evidence": [
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 15 - Accuracy, robustness and cybersecurity",
+      "excerpt": "4. Employment, workers management and access to self-employment: AI systems intended to be used for the recruitment or selection of natural persons, for making decisions affecting terms of work-related relationships, promotion or termination of work-related contractual relationships, for task allocation based on individual behaviour or personal traits or characteristics, or for monitoring and evaluating the performance and behaviour of persons in such relationships.",
+      "citation_id": "source_1",
+      "page_number": 1,
+      "relevance_score": 0.621
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "and integrat e into the overall processing; the comp utational resources used to develop, train, test and validat e the \nAI system;\n(d)where relevant, the data requirements in terms of datasheets descr ibing the training methodologies and \ntechniques and the training data sets used, including a general descr iption of these data sets, information about \ntheir prove nance, scope and main character istics; how the data was obtained and selected; labelling procedures \n(e.g. for super vised learning",
+      "citation_id": "source_2",
+      "page_number": 1,
+      "relevance_score": 0.526
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "not meant to replace or influence the previously comp leted human assessment, without proper human review ; or\n(d)the AI system is intended to perfor m a preparat ory task to an assessment relevant for the purposes of the use cases \nlisted in Annex III.\nNotwithstanding the first subparagraph, an AI system refer red to in Annex III shall alwa ys be considered to be high-r isk \nwhere the AI system perfor ms profiling of natural persons.\n4. A provid er who considers that an AI syste m referred to i",
+      "citation_id": "source_3",
+      "page_number": 1,
+      "relevance_score": 0.515
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "that are appropr iate to be implement ed by the deplo yer.\n4. For the purpose of imp lementing paragraphs 1, 2 and 3, the high-r isk AI system shall be provided to the deplo yer in \nsuch a way that natural persons to whom human oversight is assigned are enabled, as appropr iate and propor tionate :\n(a)to properly understand the relevant capacities and limitations of the high-r isk AI system and be able to duly monitor its \noperation, including in view of detecting and addressing anomalies, dysfu",
+      "citation_id": "source_4",
+      "page_number": 1,
+      "relevance_score": 0.497
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 15 - Accuracy, robustness and cybersecurity",
+      "excerpt": "6. Law enforcement: AI systems intended to be used by or on behalf of law enforcement authorities for making individual risk assessments of natural persons; as polygraphs and similar tools; to evaluate the reliability of evidence in the course of investigation or prosecution of criminal offences; for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons.",
+      "citation_id": "source_5",
+      "page_number": 1,
+      "relevance_score": 0.497
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "(73) High-r isk AI systems should be designed and developed in such a way that natural persons can oversee their \nfunctioning, ensure that they are used as intended and that their imp acts are addressed over the system’s lifecy cle. To \nthat end, appropr iate human oversight measures should be identifie d by the provider of the syste m before its placing \non the market or putting into service. In particular , where appropr iate, such measures should guarantee that the \nsyste m is subject to in-b",
+      "citation_id": "source_6",
+      "page_number": 1,
+      "relevance_score": 0.492
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "enforcement and of the use of AI systems of biometr ic cate gorisation for the purpose of law enforcement, it is \nappropr iate to base this Regulation, in so far as those specific rules are concer ned, on Article 16 TFEU. In light of \nthose specific rules and the recourse to Article 16 TFEU, it is appropr iate to consult the European Data Protection \nBoard.\n(4) AI is a fast evolving family of technologies that contr ibut es to a wide array of economic, environmental and societal \nbenefits across",
+      "citation_id": "source_7",
+      "page_number": 1,
+      "relevance_score": 0.491
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 14 - Human oversight",
+      "excerpt": "Article 14 - Human oversight\n1. High-risk AI systems shall be designed and developed in such a way, including with appropriate human-machine interface tools, that they can be effectively overseen by natural persons during the period in which they are in use.\n2. Human oversight shall aim to prevent or minimise risks to health, safety or fundamental rights that may emerge when a high-risk AI system is used in accordance with its intended purpose or under conditions of reasonably foreseeable misuse",
+      "citation_id": "source_8",
+      "page_number": 1,
+      "relevance_score": 0.489
+    }
+  ],
+  "citations": [
+    "[source_1] eu_ai_act_excerpts.txt, Article 15 - Accuracy, robustness and cybersecurity",
+    "[source_2] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_3] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_4] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_5] eu_ai_act_excerpts.txt, Article 15 - Accuracy, robustness and cybersecurity",
+    "[source_6] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_7] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_8] eu_ai_act_excerpts.txt, Article 14 - Human oversight"
+  ],
+  "recommended_mitigations": [
+    "Implement robust data protection measures to ensure compliance with GDPR regarding personal data processing.",
+    "Establish clear human oversight mechanisms to review AI decisions in the recruitment process.",
+    "Conduct regular audits to assess and mitigate potential biases in the AI screening algorithm.",
+    "Provide transparency to candidates about the use of AI in the recruitment process and how their data is being used.",
+    "Ensure that the training data used for the AI system is diverse and representative to minimize discrimination risks."
+  ],
+  "confidence_score": 0.85,
+  "disclaimer": "This is a compliance risk assessment for decision-support purposes only. It does not constitute legal advice."
+}

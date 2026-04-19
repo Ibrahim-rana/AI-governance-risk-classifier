@@ -1,0 +1,92 @@
+{
+  "id": "979f87d3-dda2-450f-9047-b2203b5250b5",
+  "assessment_id": "0be76ef5-2fa0-4264-800e-d42014629717",
+  "title": "Compliance Risk Assessment: Facial Recognition in Public Spaces",
+  "generated_at": "2026-03-17T19:47:45.422861",
+  "use_case_summary": "**AI System:** Facial Recognition in Public Spaces\n**Description:** A real-time facial recognition system deployed in public areas for general surveillance purposes by law enforcement, continuously scanning and identifying individuals without specific warrants or targeted searches\n**Domain:** law enforcement\n**Users Affected:** Lawyers\n**Personal Data:** Yes\n**Sensitive Data:** Yes\n**Automated Decisions:** Yes\n**Impacts Rights:** Yes",
+  "classification": "High Risk",
+  "compliance_concerns": [
+    "Privacy Concern",
+    "Fairness / Bias Concern",
+    "Human Oversight Concern",
+    "Transparency Concern"
+  ],
+  "explanation": "This AI system (Facial Recognition in Public Spaces) has been classified as High Risk. Operating in the law enforcement domain. It processes personal data, triggering GDPR obligations. It may impact fundamental rights, opportunities, or legal status of individuals. Relevant regulatory references: eu_ai_act_excerpts.txt (Article 5 - Prohibited AI practices); EU_AI_ACT_2024.pdf (Full Document); eu_ai_act_excerpts.txt (Article 15 - Accuracy, robustness and cybersecurity). Compliance concerns identified: Privacy Concern, Fairness / Bias Concern, Human Oversight Concern, Transparency Concern. Classification confidence: 72%",
+  "evidence": [
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 5 - Prohibited AI practices",
+      "excerpt": "(d) the placing on the market, the putting into service, or the use of an AI system for making risk assessments of natural persons in order to assess or predict the risk of a natural person committing a criminal offence, based solely on the profiling of a natural person or on assessing their personality traits and characteristics; this prohibition shall not apply to AI systems used to support the human assessment of the involvement of a person in a criminal activity, which is already based on ob",
+      "citation_id": "source_1",
+      "relevance_score": 0.638
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "such a way that the natural persons concer ned are informed that they are interacting with an AI system, unless this is \nobvious from the point of view of a natural person who is reasonably well-inf ormed, obser vant and circumspect, taking \ninto account the circumstances and the cont ext of use. This obligation shall not apply to AI systems author ised by law to \ndetect , prevent, invest igate or prosecute criminal offences, subject to appropr iate safeguards for the rights and freedoms of \nthi",
+      "citation_id": "source_2",
+      "relevance_score": 0.585
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 15 - Accuracy, robustness and cybersecurity",
+      "excerpt": "1. Biometrics: AI systems intended to be used for the 'real-time' and 'post' remote biometric identification of natural persons.\n2. Critical infrastructure: AI systems intended to be used as safety components in the management and operation of critical digital infrastructure, road traffic, or in the supply of water, gas, heating or electricity.\n3. Education and vocational training: AI systems intended to be used to determine access to or admission to educational and vocational training instituti",
+      "citation_id": "source_3",
+      "relevance_score": 0.582
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "(e)the placing on the mark et, the putting into service for this specif ic purpose, or the use of AI syste ms that create or \nexpand facial recognition databases through the untarget ed scraping of facial images from the inter net or CCT V footage;\n(f)the placing on the marke t, the putting into service for this specific purpose, or the use of AI syste ms to infer emotions \nof a natural person in the areas of workplace and education institutions, except where the use of the AI system is \nintende",
+      "citation_id": "source_4",
+      "relevance_score": 0.582
+    },
+    {
+      "document": "eu_ai_act_excerpts.txt",
+      "article_or_section": "Article 15 - Accuracy, robustness and cybersecurity",
+      "excerpt": "6. Law enforcement: AI systems intended to be used by or on behalf of law enforcement authorities for making individual risk assessments of natural persons; as polygraphs and similar tools; to evaluate the reliability of evidence in the course of investigation or prosecution of criminal offences; for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons.",
+      "citation_id": "source_5",
+      "relevance_score": 0.578
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "on the profil ing of individuals or on the personality traits and charact eristics of individuals, such as AI systems using \nrisk analytics to assess the likelihood of financ ial fraud by under takings on the basis of suspicious transactions or \nrisk analytic tools to predict the likelihood of the localisation of narcotics or illicit goods by customs author ities, for \nexam ple on the basis of known traff icking routes.\n(43) The placing on the mark et, the putting into service for that specific ",
+      "citation_id": "source_6",
+      "relevance_score": 0.559
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "is dispropor tionate or unjustifie d to the gravity of their social behavio ur. AI systems entailing such unaccept able \nscor ing practices and leading to such detr imental or unfa vourable outcomes should theref ore be prohibited. That \nprohibition should not affect lawful evaluation practices of natural persons that are carried out for a specific purpose \nin accordance with Union and national law.\n(32) The use of AI syste ms for ‘real-time’ remote biometr ic identification of natural persons i",
+      "citation_id": "source_7",
+      "relevance_score": 0.558
+    },
+    {
+      "document": "EU_AI_ACT_2024.pdf",
+      "article_or_section": "Full Document",
+      "excerpt": "footage, should be prohibite d because that practice adds to the feeling of mass surveillance and can lead to gross \nviolations of fundamental rights, including the right to privacy .\n(44) There are serious concer ns about the scientific basis of AI systems aiming to identify or infer emotions, particularly \nas expression of emotions vary considerably across cultures and situations, and even within a sing le individual. \nAmong the key shor tcomings of such syste ms are the limited reliability , ",
+      "citation_id": "source_8",
+      "relevance_score": 0.53
+    }
+  ],
+  "citations": [
+    "[source_1] eu_ai_act_excerpts.txt, Article 5 - Prohibited AI practices",
+    "[source_2] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_3] eu_ai_act_excerpts.txt, Article 15 - Accuracy, robustness and cybersecurity",
+    "[source_4] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_5] eu_ai_act_excerpts.txt, Article 15 - Accuracy, robustness and cybersecurity",
+    "[source_6] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_7] EU_AI_ACT_2024.pdf, Full Document",
+    "[source_8] EU_AI_ACT_2024.pdf, Full Document"
+  ],
+  "recommended_mitigations": [
+    "Document the lawful basis for processing personal data under GDPR Article 6",
+    "Conduct a Data Protection Impact Assessment (DPIA) per GDPR Article 35",
+    "Implement human oversight mechanisms and appeal pathways",
+    "Conduct a fundamental rights impact assessment",
+    "Perform a bias and fairness assessment on training data and model outputs"
+  ],
+  "confidence_score": 0.72,
+  "disclaimer": "This is a compliance risk assessment for decision-support purposes only. It does not constitute legal advice."
+}
